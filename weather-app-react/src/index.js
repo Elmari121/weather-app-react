@@ -12,11 +12,13 @@ root.render(
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
-    </div>
+  </div>
+  <footer>
     <p style={{ fontSize: "0.9rem", marginTop: "2rem" }}>
-  <a href="https://github.com/Elmari121/weather-app-react" target="_blank" rel="noopener noreferrer">
-    View Source on GitHub
-  </a>
-</p>
-  </StrictMode>
+      <a href="https://github.com/Elmari121/weather-app-react" target="_blank" rel="noopener noreferrer">
+        View Source on GitHub
+      </a>
+    </p>
+  </footer>
+</StrictMode>
 );
